@@ -17,9 +17,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head />
-
-      <body className={`${montserrat.className} mx-32`}>
-        <nav className="  text-center mt-10 ">
+      <body className={`${montserrat.className} mx-12 sm:mx-32`}>
+        <nav className=" text-center mt-10 ">
           <Link href="/">
             <div className="p-3 border-2 border-white rounded-xl inline-block font-bold sm:text-4xl text-sm text-white">
               The Movie App
