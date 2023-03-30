@@ -19,7 +19,7 @@ export default async function MovieDetail({ params }) {
   );
   const res = await data.json();
   return (
-    <div className="text-center sm:text-start">
+    <div className="text-center">
       <div>
         <h2 className="text-xs sm:text-2xl mt-5">{res.title}</h2>
         <h2 className="text-xs sm:text-lg">{res.release_date}</h2>
